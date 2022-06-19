@@ -1,0 +1,56 @@
+.List_conteiner {
+  margin-top: 30px;
+}
+
+.todos_conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px grey solid;
+  padding: 15px 0px;
+}
+
+.completed_button {
+  padding: 0 15px;
+  text-align: center;
+}
+
+.selected {
+  background-color: #fff70659;
+}
+
+.completed_button button {
+  background-color: inherit;
+  border: none;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.completed_button button:hover {
+  color: rgb(255, 255, 0);
+}
+
+.completed_button .selected {
+  color: rgb(255, 255, 0);
+}
+
+.completed_button .selected:hover {
+  color: black;
+}
+
+.todo_text {
+  flex: 1;
+}
+
+.delete_button {
+  padding-right: 15px;
+}
+
+.delete_button button {
+  color: red;
+  padding: 7px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}

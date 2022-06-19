@@ -1,0 +1,25 @@
+.input_conteiner {
+  display: flex;
+  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+}
+
+.input_conteiner input {
+  flex: 1;
+  border: 1px solid purple;
+  border-radius: 15px;
+}
+
+.input_conteiner button {
+  background-color: purple;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  margin-left: 15px;
+  border-radius: 15px;
+  font-size: 0.9em;
+}
+
+.input_conteiner button:active {
+  background-color: rgba(128, 0, 128, 0.61);
+}
